@@ -6,8 +6,7 @@
 <% if flash[:notice] %>
   <div class="alert alert-success"><%= flash[:notice] %></div>
 <% end %>
-
-<table class="table table-bordered table-striped">
+<table class="table table-bordered table-striped" id="persons">
   <thead>
     <tr>
       <th>First Name</th>
@@ -43,3 +42,4 @@
     <% end %>
   </tbody>
 </table>
+
