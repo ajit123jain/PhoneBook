@@ -14,3 +14,5 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+//= require dataTables/bootstrap/3/jquery.dataTables.bootstrap
+

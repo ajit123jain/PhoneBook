@@ -3,6 +3,7 @@
     <%= f.label :first_name %>
     <%= f.text_field :first_name, class: "form-control" %>
   </div>
+
   <div class="form-group">
     <%= f.label :last_name %>
     <%= f.text_field :last_name, class: "form-control" %>
@@ -18,6 +19,10 @@
   <div class="form-group">
     <%= f.label :address %>
     <%= f.text_area :address, class: "form-control" %>
+  </div>
+  <div class="form-group">
+    <%= label_tag "person[dummy_field]", "dfdff" %>
+    <%= text_field_tag "person[dummy_field]" %>
   </div>
   <%= f.submit class: "btn btn-primary" %>
 <% end %>
